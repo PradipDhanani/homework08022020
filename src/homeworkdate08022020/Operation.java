@@ -1,4 +1,4 @@
-package homeWorkDate08022020;
+package homeworkdate08022020;
 
 public class Operation {
     public static void main(String[]args) {

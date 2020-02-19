@@ -1,4 +1,4 @@
-package homeWorkDate08022020;
+package homeworkdate08022020;
 
 public class Operations {
     public static void main(String[]args){
@@ -10,14 +10,5 @@ public class Operations {
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
-
-
-
-
-
-
-
-
-
     }
 }

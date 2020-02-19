@@ -1,4 +1,4 @@
-package homeWorkDate08022020;
+package homeworkdate08022020;
 
 public class BioData {
     public static void main(String [] args){
@@ -15,22 +15,6 @@ public class BioData {
         System.out.println("Mariatal Status: Married");
         System.out.println("Nathionality: Indian");
         System.out.println("Hobbies: Playing Cricket");
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
 
 }

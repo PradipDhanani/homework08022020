@@ -1,4 +1,4 @@
-package homeWorkDate08022020;
+package homeworkdate08022020;
 
 public class Triangle {
     public static void main(String[]args){
@@ -8,14 +8,5 @@ public class Triangle {
         System.out.println("****");
         System.out.println("*****");
         System.out.println("******");
-
-
-
-
-
-
-
-
-
     }
 }

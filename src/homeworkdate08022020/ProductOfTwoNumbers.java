@@ -1,4 +1,4 @@
-package homeWorkDate08022020;
+package homeworkdate08022020;
 
 public class ProductOfTwoNumbers {
     public static void main(String[]args){
@@ -6,10 +6,6 @@ public class ProductOfTwoNumbers {
          int FirstNumber = 25;
          int SecondNumber = 5;
          System.out.println(FirstNumber + " x " + SecondNumber + " = " + FirstNumber * SecondNumber);
-
-
-
-
 
     }
 }

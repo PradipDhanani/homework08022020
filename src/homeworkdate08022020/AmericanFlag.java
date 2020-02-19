@@ -1,4 +1,4 @@
-package homeWorkDate08022020;
+package homeworkdate08022020;
 
 public class AmericanFlag {
     public static void main(String[]args){
@@ -17,10 +17,6 @@ public class AmericanFlag {
         System.out.println("==============================================");
         System.out.println("==============================================");
         System.out.println("==============================================");
-
-
-
-
 
     }
 }
