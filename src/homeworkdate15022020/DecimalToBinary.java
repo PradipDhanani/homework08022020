@@ -18,7 +18,7 @@ public class DecimalToBinary {//main class
         System.out.println("Please enter Decimal Number : ");
         a = scan.nextInt();
 
-        // interger to binary
+        // integer  to binary
         String b = Integer.toBinaryString(a);
 
         // printing statement for binary
