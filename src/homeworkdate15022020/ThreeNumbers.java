@@ -21,6 +21,7 @@ public class ThreeNumbers {//class
 
         System.out.println("Enter any third number: "); //printing statement
         c = sca.nextDouble();
+        sca.close();
 
 
         approx = (a + b + c) / 3; //formula

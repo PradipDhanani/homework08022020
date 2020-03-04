@@ -19,6 +19,7 @@ public class Triangle {// class name
         scan.nextInt();
         System.out.println("Base of triangle is: ");//printing base of triangle
         scan.nextInt();
+        scan.close();
 
         calculateArea = 100 * 5.9 * 6.9 / 200;//formula is this
         System.out.println("Triangle area is: " + calculateArea);//printing according to formula

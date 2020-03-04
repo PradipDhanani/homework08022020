@@ -13,6 +13,7 @@ public class RadiusValueOfCircle {//class
         Scanner scan = new Scanner(System.in);// created scanner object
         System.out.println("Enter any radius value of circle: ");//printing statement of radius value for circle
         radius = scan.nextInt();//calling radius variable using object
+        scan.close();
         area = perimeterOfCircle * radius * radius; // using formula of area
         System.out.println("Area is: " + area);//printing statement to check area
 

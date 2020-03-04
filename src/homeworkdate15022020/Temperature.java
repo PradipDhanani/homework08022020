@@ -13,7 +13,7 @@ public class Temperature {//class name
         System.out.println("Insert any temperature value in degree: ");//printing statement
         tempDegree = sca.nextDouble();//can select any temperature
         System.out.println("Celsius temperature is : = " + celsius(tempDegree));//printing statement
-
+        sca.close();
     }
 
     static double celsius(double f) {

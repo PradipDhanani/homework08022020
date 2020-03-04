@@ -6,8 +6,12 @@ import java.util.Scanner;
 public class Calculator {//class
 
 
+
+
     public static void main(String[] args) {//main method
         // scanner object created
+
+
 
         Scanner scan = new Scanner(System.in);
 
@@ -17,6 +21,7 @@ public class Calculator {//class
         a = scan.nextInt();
         System.out.println("Enter any second numbers to do addition ");//printing for second statement
         b = scan.nextInt();
+
 
         int c; //data types for subtraction
         int d; //data types for subtraction
@@ -45,6 +50,7 @@ public class Calculator {//class
         cal.sub(c, d);//passing values in to parameters
         multi(e, f);//calling static method directly in main static method using method name and passing parameters
         div(g, h);// calling static method directly in main static method using method name and passing parameters
+        scan.close();
     }
 
     // instance method
@@ -69,6 +75,7 @@ public class Calculator {//class
     public static void div(int g, int h) {//inside constructor we are passing parameters
         int result4 = g + h;// created data types to print result for g and h
         System.out.println("Value for division is " + g / h);//printing division
+
     }
 
 

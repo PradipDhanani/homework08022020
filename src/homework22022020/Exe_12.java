@@ -16,6 +16,7 @@ public class Exe_12 {//class
         Scanner sca = new Scanner(System.in);//scanner class
         System.out.println("input any value here number or an alphabet or symbol");//printing statement
         char ch = sca.next().charAt(0);
+        sca.close();
 
         if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {//formula to find character
             System.out.println(ch + " is a Alphabet");//printing statement

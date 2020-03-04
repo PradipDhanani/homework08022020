@@ -15,6 +15,7 @@ public class Perimeter {//class
         width = scan.nextDouble();//calling width variable
         System.out.println("Height is: ");//printing statement
         height = scan.nextDouble();//calling height variable
+        scan.close();
 
         area = width * height;// name given to as variable to call width and height variable
         perimeter = 2 * (width + height);// perimeter formula to calculate with width and height

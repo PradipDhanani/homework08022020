@@ -21,6 +21,7 @@ public class expressions {//class
         c = scan.nextDouble();
         System.out.println("Enter any specified expressions: ");//printing statement
         d = scan.nextDouble();
+        scan.close();
 
         e = ((a * b - b * b) / (c - d));// test data
         System.out.println("Specified Expression is: " + e);//printing statement

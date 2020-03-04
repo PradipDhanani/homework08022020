@@ -13,6 +13,7 @@ public class PrintReceipt {// class
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the Gallons : ");
         double gallon = scan.nextDouble();
+        scan.close();
         double price = 2.089;
 
         double fueltotal = (gallon * price);

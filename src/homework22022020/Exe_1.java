@@ -16,6 +16,7 @@ public class Exe_1 {
         Scanner sca = new Scanner(System.in);//scanner class
         System.out.println("Enter any number to check if number is odd or even");//printing statement
         int a = sca.nextInt();
+        sca.close();
 
         String result;//to print the result
 

@@ -21,6 +21,7 @@ public class Pattern {//class
         System.out.println("Third character is: ");
         c = sca.next();
         c.toLowerCase();
+        sca.close();
 
         d = c.toUpperCase();
 

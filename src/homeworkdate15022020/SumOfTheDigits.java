@@ -11,6 +11,7 @@ public class SumOfTheDigits {//class
                 Scanner scan = new Scanner(System.in);//scanner class
                 System.out.println("Enter an Integer Value : ");//printing statement
                 num = scan.nextInt();
+                scan.close();
                 while (num > 0) {
                     rem = num % 10;
                     sum = sum + rem;

@@ -17,6 +17,7 @@ public class Exe_17 {//class
         Scanner sca = new Scanner(System.in);//scanner class
         System.out.println("Enter number here to find  sum value ");//printing statement
         int sum = sca.nextInt();
+        sca.close();
 
         int[] arrays = {10, 20, 30, 40, 50};//array index
         //int sum = 0;

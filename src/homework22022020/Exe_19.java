@@ -17,6 +17,7 @@ public class Exe_19 {//class
         Scanner scan = new Scanner(System.in);//scanner class
         System.out.println("Enter the number of Elements you want in array:");//printing statement
         int n = scan.nextInt();
+        scan.close();
 
 
         int total = 0;//local variable

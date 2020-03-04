@@ -16,8 +16,12 @@ public class Exe_2 {//class
     public static void conditions() {//static method
 
         Scanner sca = new Scanner(System.in);//scanner class
-        System.out.println("Enter any year here to check if year is leap year or not leap year");//printing statement
+       System.out.println("Enter any year here to check if year is leap year or not leap year");//printing statement
         int year = sca.nextInt();
+        sca.close();
+
+
+
 
         if (year % 400 == 0) {// years modulus by 400
             System.out.println("leap year ");//printing statement

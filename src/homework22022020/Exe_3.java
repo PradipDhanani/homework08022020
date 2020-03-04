@@ -37,6 +37,7 @@ public class Exe_3 {//class
 
         System.out.println("Enter marks for maths subject:");//printing statement
         maths = scan.nextInt();
+        scan.close();
         if (maths < 0 || maths > 100) {//comparing marks
             System.out.println("“Invalid data, Marks\n" +
                     "between 0 to 100”");//printing statement

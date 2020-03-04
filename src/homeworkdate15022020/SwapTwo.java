@@ -15,6 +15,7 @@ public class SwapTwo {//class
         a = scan.nextInt();
         System.out.println("Enter second number: ");
         b = scan.nextInt();
+        scan.close();
 
         swapping = a;
         swapping1 = b;

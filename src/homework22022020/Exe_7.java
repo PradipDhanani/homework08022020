@@ -37,6 +37,7 @@ public class Exe_7 {
         System.out.println("Seller's name : " + name);//printing statement
         System.out.println("Sales Amount :" + a);//printing statement
         System.out.println("Basic Salary : " + sal);//printing statement
+        scan.close();
 
 
         // using Nested if else syntax

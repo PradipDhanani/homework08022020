@@ -18,6 +18,7 @@ public class Exe_9 {//class
         Scanner scanner = new Scanner(System.in);//scanner class
         System.out.println("Enter any alphabets start with A and f:");//printing statement
         String alpha = scanner.next();
+        scanner.close();
 
         alpha = alpha.toUpperCase();//uppercase method
         alpha = alpha.toLowerCase();//lowercase method

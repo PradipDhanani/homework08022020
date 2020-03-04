@@ -24,6 +24,7 @@ HINT: Use the switch statement. NOTE: Methods isLeapYear and getDaysInMonth need
         Scanner scan = new Scanner(System.in);  // Scanner introduced
         System.out.println("Enter the year between 1 and 9999 : "); // print statent for valid year
         int year = scan.nextInt();              // user input for year
+        scan.close();
 
         if (year >= 1 && year <= 9999) {       // condition for valid year
 
@@ -51,7 +52,7 @@ HINT: Use the switch statement. NOTE: Methods isLeapYear and getDaysInMonth need
         System.out.println("Enter number of the month (between 1 & 12)of the year : "); // days of the month in integers
         int month = scan.nextInt();                             // user input here
         System.out.println("Enter the year again :");           // Year again for days on the month
-        int year = scan.nextInt();                              // user input
+        int year = scan.nextInt();// user input
         int numDays = 0;                                        // int numDays for days in the month
 
         if ((month >= 1 && month <= 12) && (year >= 1 && year <= 9999)) { // valid condition for month and year

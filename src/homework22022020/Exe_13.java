@@ -19,6 +19,7 @@ public class Exe_13 {
         Scanner scan = new Scanner(System.in);//scanner class
         System.out.println("Please Enter Number of the Day : ");//printing statement
         int day = scan.nextInt();
+        scan.close();
 
         switch (day){
             case 1:

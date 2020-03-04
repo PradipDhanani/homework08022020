@@ -10,6 +10,7 @@ public class InToLowerCase {//Class
         Scanner scan = new Scanner(System.in);// scanner class
         System.out.println("Enter any sentence in capital letter: ");//printing statement
         lowerCase = scan.nextLine();
+        scan.close();
 
         System.out.println("Lowercase sentence is: " + lowerCase.toLowerCase());
 

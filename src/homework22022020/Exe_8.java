@@ -20,6 +20,7 @@ public class Exe_8 {//class
 
         System.out.println("Enter any city name here start with A and f: ");//printing statement
         alpha = scan.next();
+        scan.close();
 
         alpha = alpha.toUpperCase();//declared uppercase
         alpha = alpha.toLowerCase();//declares lowercase

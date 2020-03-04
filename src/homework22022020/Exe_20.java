@@ -34,6 +34,7 @@ public class Exe_20 {//class
 
         System.out.println("Enter the Elements you want to find : ");//printing statement
         b = scan.nextInt();
+        scan.close();
 
         for (c = 0; c < a; c++) {//for loop
             if (a1[c] == b) {

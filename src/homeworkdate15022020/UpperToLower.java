@@ -12,6 +12,7 @@ public class UpperToLower {//class
         Scanner scan = new Scanner(System.in);//scanner object created
         System.out.println("Enter any word in upper case: ");//printing upper case statement
         uppercase = scan.nextLine();
+        scan.close();
 
         lowercase = uppercase.toLowerCase();// lowercase string calling
         System.out.println("Lower case sentence is: " + lowercase);//printing lowercase statement

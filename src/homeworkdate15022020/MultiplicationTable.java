@@ -14,7 +14,7 @@ public class MultiplicationTable {//class
         for (int i = 0; i < 10; i++) {//for loop syntax to print
             System.out.println(num1 + " x " + (i + 1) + " = " + (num1 * (i + 1)));
 
-
+        sca.close();
         }
 
 

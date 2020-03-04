@@ -35,6 +35,7 @@ public class Exe_10 {//class
 
         System.out.println("Enter any symbol from addition, subtraction, multiplication and division");//printing statement
         c = scan.next().charAt(0);
+        scan.close();
 
         addition = a + b;
         subtraction = a - b;

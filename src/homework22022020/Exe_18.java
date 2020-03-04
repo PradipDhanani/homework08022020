@@ -19,6 +19,7 @@ public class Exe_18 {
         Scanner scan = new Scanner(System.in);//scanner class
         System.out.println("Please enter any character to print the grid line :");//printing statement
         b = scan.nextLine();
+        scan.close();
 
         do{
             System.out.println(b+b+b+b+b+b+b+b+b+b);

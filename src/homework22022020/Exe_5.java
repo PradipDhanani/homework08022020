@@ -27,6 +27,7 @@ public class Exe_5 {
 
         System.out.println("Enter the Basic Salary : ");//printing statement
         double Sal = scan.nextInt();
+        scan.close();
 
         double Hra = 10 * Sal / 100;     // defined HRA = 10% of Basic Salary / double for decimal
         double Ta = 8 * Sal / 100;      // defined TA = 8% of Basic Salary as double
